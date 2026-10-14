@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#193b52"/><stop offset="1" stop-color="#537d8a"/></linearGradient>
+    <linearGradient id="grass" x2="0" y2="1"><stop stop-color="#54a16c"/><stop offset="1" stop-color="#286f52"/></linearGradient>
+    <linearGradient id="dirt" x2="0" y2="1"><stop stop-color="#a76e4d"/><stop offset="1" stop-color="#c1885c"/></linearGradient>
+    <pattern id="fans" width="28" height="20" patternUnits="userSpaceOnUse"><circle cx="4" cy="6" r="3.5" fill="#e7c99a"/><path d="M0 16q4-8 9 0" fill="#cf685a"/><circle cx="19" cy="9" r="3.5" fill="#e8cb9c"/><path d="M14 19q5-8 11 0" fill="#7db6bc"/></pattern>
+    <pattern id="stripe" width="140" height="150" patternUnits="userSpaceOnUse" patternTransform="skewX(-18)"><rect width="70" height="150" fill="#ffffff" opacity=".065"/></pattern>
+    <filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="960" height="240" fill="url(#sky)"/>
+  <path d="M0 14q200-35 480-12t480 10v179H0Z" fill="#132d39"/>
+  <path d="M0 25q220-42 480-13t480 14v136H0Z" fill="url(#fans)"/>
+  <path d="M0 135q250 18 480 0t480 2v27H0Z" fill="#223947"/>
+  <path d="M0 158q240 12 480-3t480 2v86H0Z" fill="#173e48"/>
+  <path d="M0 183q260 16 480-4t480 4" fill="none" stroke="#6c9b96" stroke-width="5" opacity=".7"/>
+  <g fill="#e9e2bb" opacity=".8" font-family="Arial,sans-serif" font-size="20" font-weight="900" letter-spacing="3"><text x="85" y="213">RIVALS</text><text x="730" y="213">BASEBALL LOOT</text></g>
+  <path d="M0 240q220 12 480 0t480 0v300H0Z" fill="url(#grass)"/>
+  <path d="M0 240q220 12 480 0t480 0v300H0Z" fill="url(#stripe)"/>
+  <path d="M434 261h92l122 279H312Z" fill="url(#dirt)"/>
+  <path d="M0 540 422 261" stroke="#f2efd5" stroke-width="4" opacity=".78"/>
+  <path d="M960 540 538 261" stroke="#f2efd5" stroke-width="4" opacity=".78"/>
+  <ellipse cx="480" cy="292" rx="88" ry="22" fill="#a46e4f"/>
+  <ellipse cx="480" cy="286" rx="60" ry="12" fill="#bd8c63"/>
+  <path d="M435 455 480 440l45 15-45 26Z" fill="#f5eee0" stroke="#d8cdb7" stroke-width="3"/>
+  <path d="M91 521q220-55 363-42M506 479q222-8 368 49" fill="none" stroke="#e7ddc5" stroke-width="5" opacity=".72"/>
+  <!-- Far pitcher: simple original arcade character, sized for depth. -->
+  <ellipse cx="477" cy="306" rx="43" ry="9" fill="#133528" opacity=".35" filter="url(#shadow)"/>
+  <path d="M457 279q-12 16-8 29h22l12-19" fill="#f2f1e7" stroke="#18352f" stroke-width="3"/>
+  <path d="M486 285q8 12 19 21h20l-16-30" fill="#f2f1e7" stroke="#18352f" stroke-width="3"/>
+  <path d="M456 246q23-12 50 0l-3 40q-23 12-45-1Z" fill="#f6eee0" stroke="#183b37" stroke-width="4"/>
+  <path d="M465 247q-18 14-30 7" fill="none" stroke="#e6b688" stroke-width="12" stroke-linecap="round"/>
+  <path d="M502 251q18-2 33 8" fill="none" stroke="#e6b688" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="482" cy="224" r="29" fill="#efc398" stroke="#173e42" stroke-width="4"/>
+  <path d="M454 217q3-29 29-29 29 0 29 25l-16 3q-20-5-42 1Z" fill="#155c5e"/>
+  <path d="M479 206q28-5 42 9l-22 7q-15-10-20-16" fill="#155c5e"/>
+  <circle cx="472" cy="224" r="2.8" fill="#173432"/><circle cx="492" cy="224" r="2.8" fill="#173432"/>
+  <path d="M475 237q7 5 14 0" fill="none" stroke="#a25d52" stroke-width="2"/>
+  <!-- Near hitter: foreground framing, with a raised bat and big readable silhouette. -->
+  <ellipse cx="215" cy="514" rx="115" ry="22" fill="#132c28" opacity=".55" filter="url(#shadow)"/>
+  <path d="M224 392q-53 18-50 79l-36 43 38 9 57-42 58 41 44-9-67-81Z" fill="#efe9dc" stroke="#123632" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M135 513q28 5 62-3l-4 23h-71q-8-12 13-20ZM289 512q30 9 47-3l21 21-75 4q-15-9 7-22Z" fill="#103b45" stroke="#e7e3d5" stroke-width="4"/>
+  <path d="M187 356q23-31 66-18 39 11 43 67l-28 44-90-11-22-38Z" fill="#eee9db" stroke="#0f3735" stroke-width="8"/>
+  <path d="M173 398q-13-3-28-22" fill="none" stroke="#e5b485" stroke-width="29" stroke-linecap="round"/>
+  <path d="M268 394q33-12 51-53" fill="none" stroke="#e5b485" stroke-width="26" stroke-linecap="round"/>
+  <path d="M319 346 289 125" stroke="#d8a36a" stroke-width="20" stroke-linecap="round"/>
+  <path d="M314 312 287 114" stroke="#f6d299" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  <path d="M319 346 309 320" stroke="#273a38" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="223" cy="305" r="74" fill="#eec49a" stroke="#123d3e" stroke-width="8"/>
+  <path d="M149 297q-5-75 72-80 76-1 77 63l-21 17q-53-13-128 0Z" fill="#174b50"/>
+  <path d="M210 237q70-9 104 48l-41 19q-22-35-63-67Z" fill="#174b50"/>
+  <path d="M273 293q-11 49-47 78 47-6 65-51Z" fill="#16464a" opacity=".65"/>
+  <circle cx="194" cy="309" r="6" fill="#183735"/>
+  <path d="M177 334q18 12 31 1" fill="none" stroke="#aa6f63" stroke-width="4" stroke-linecap="round"/>
+  <path d="M147 391q40 14 79 6" fill="none" stroke="#1f6864" stroke-width="14" opacity=".55"/>
+</svg>
